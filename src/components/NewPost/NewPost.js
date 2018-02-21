@@ -9,7 +9,7 @@ class NewPost extends Component {
         content: '',
         author: 'Anonymous'
     }
-    postDataHandler = () => {   //'POSTing' data to the server. Open console to see what happened.
+    postDataHandler = () => {   //'POSTing' data to the server. Open a console to see what happened.
       const data = {
         title: this.state.title,
         body: this.state.content,
@@ -18,6 +18,7 @@ class NewPost extends Component {
       axios.post('https://jsonplaceholder.typicode.com/posts', data)
           .then(response => {
             console.log(response);
+            alert('Open a console to see what happened');
           });
     };
     render () {

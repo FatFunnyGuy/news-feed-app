@@ -19,10 +19,11 @@ class FullPost extends Component {
         }
       }
     }
-    deletePostHandler = () => {   //'Deleting' data from the server. Open console to see what happened.
+    deletePostHandler = () => {   //'Deleting' data from the server. Open a console to see what happened.
       axios.delete('https://jsonplaceholder.typicode.com/posts/'+this.props.id)
           .then(response => {
             console.log(response);
+            alert('Open a console to see what happened');
           });
     }
     render () {
