@@ -1,7 +1,7 @@
 ## Tools used in this project
 
-Fake Online REST API - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
-Promise based HTTP client for the browser and node.js - [Axios](https://github.com/axios/axios)
+Fake Online REST API - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)<br>
+Promise based HTTP client for the browser and node.js - [Axios](https://github.com/axios/axios)<br>
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
